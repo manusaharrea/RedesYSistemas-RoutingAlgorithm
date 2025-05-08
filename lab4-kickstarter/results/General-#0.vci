@@ -1,0 +1,77 @@
+file 91313 1717258420                                           
+version 3
+run General-0-20240601-13:13:03-15766
+attr configname General
+attr datetime 20240601-13:13:03
+attr datetimef 20240601-131303
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 15766
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+config sim-time-limit 200s
+config Network.node[{0,2}].app.interArrivalTime exponential(1)
+config Network.node[{0,2}].app.packetByteSize 125000
+config Network.node[{0,2}].app.destination 5
+config Network.node[{0,2}].net.destination 5
+
+vector 0 Network.node[0].app "Packets Generated" ETV
+vector 1 Network.node[1].app "Packets Generated" ETV
+vector 2 Network.node[2].app "Packets Generated" ETV
+vector 3 Network.node[3].app "Packets Generated" ETV
+vector 4 Network.node[4].app "Packets Generated" ETV
+vector 5 Network.node[5].app "Packets Generated" ETV
+vector 6 Network.node[6].app "Packets Generated" ETV
+vector 7 Network.node[7].app "Packets Generated" ETV
+vector 8 Network.node[0].lnk[0] "Buffer Size" ETV
+vector 9 Network.node[0].lnk[1] "Buffer Size" ETV
+vector 10 Network.node[1].lnk[0] "Buffer Size" ETV
+vector 11 Network.node[1].lnk[1] "Buffer Size" ETV
+vector 12 Network.node[2].lnk[0] "Buffer Size" ETV
+vector 13 Network.node[2].lnk[1] "Buffer Size" ETV
+vector 14 Network.node[3].lnk[0] "Buffer Size" ETV
+vector 15 Network.node[3].lnk[1] "Buffer Size" ETV
+vector 16 Network.node[4].lnk[0] "Buffer Size" ETV
+vector 17 Network.node[4].lnk[1] "Buffer Size" ETV
+vector 18 Network.node[5].lnk[0] "Buffer Size" ETV
+vector 19 Network.node[5].lnk[1] "Buffer Size" ETV
+vector 20 Network.node[6].lnk[0] "Buffer Size" ETV
+vector 21 Network.node[6].lnk[1] "Buffer Size" ETV
+vector 22 Network.node[7].lnk[0] "Buffer Size" ETV
+vector 23 Network.node[7].lnk[1] "Buffer Size" ETV
+vector 24 Network.node[5].app Delay ETV
+0	1942 5378 0 7127 0 198.663423511276 202 0 201 20301 2727101
+1	7320 8 0 0 0 0 1 0 0 0 0
+2	7328 5051 0 7147 0 199.581142627156 190 0 189 17955 2268315
+3	12379 8 0 0 0 0 1 0 0 0 0
+4	12387 8 0 0 0 0 1 0 0 0 0
+5	12395 8 0 0 0 0 1 0 0 0 0
+6	12403 8 0 0 0 0 1 0 0 0 0
+7	12411 8 0 0 0 0 1 0 0 0 0
+8	12419 10280 1 7130 0 199.155390204255 413 0 9 1823 10415
+9	22699 226 2 580 0 0.0077 16 0 1 8 8
+10	22925 242 3 577 0 0.0077 16 0 1 8 8
+11	23167 241 4 582 0 0.0077 16 0 1 8 8
+12	23408 242 5 579 0 0.0077 16 0 1 8 8
+13	23650 10169 6 7150 0 199.64888529358 393 0 10 1249 6469
+14	33819 242 7 581 0 0.0077 16 0 1 8 8
+15	34061 10124 8 7154 0 199.64898529358 390 0 1 195 195
+16	44185 242 9 583 0 0.0077 16 0 1 8 8
+17	44427 10079 10 7123 0 198.649252527223 388 0 1 194 194
+18	54506 243 11 585 0 0.0077 16 0 1 8 8
+19	54749 243 12 590 0 0.0077 16 0 1 8 8
+20	54992 10495 13 7140 0 199.155590204255 404 0 1 202 202
+21	65487 243 14 592 0 0.0077 16 0 1 8 8
+22	65730 10542 15 7135 0 199.155490204255 406 0 1 203 203
+23	76272 243 16 578 0 0.0077 16 0 1 8 8
+24	76515 14797 697 7158 3.898860388484 199.649352527223 379 3.0003 12.408766141614 2616.6142072202 20386.806800347
+
